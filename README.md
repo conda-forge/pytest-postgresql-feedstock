@@ -1,11 +1,11 @@
-About pytest-postgresql
-=======================
+About pytest-postgresql-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-postgresql-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ClearcodeHQ/pytest-postgresql
 
 Package license: LGPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-postgresql-feedstock/blob/main/LICENSE.txt)
 
 Summary: Postgresql fixtures and fixture factories for Pytest.
 
