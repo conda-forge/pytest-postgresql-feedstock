@@ -1,5 +1,5 @@
 {% set name = "pytest-postgresql" %}
-{% set version = "5.1.0" %}
+{% set version = "5.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-postgresql-{{ version }}.tar.gz
-  sha256: 9d575796dad2c0bbbf87a3af150ed273911b10dc2a47360a90e1a92f7fcb74d4
+  sha256: edc1e83f65e9276bf465a983bfee98799866ee067defcee586ef6f889218e91f
 
 build:
   noarch: python
