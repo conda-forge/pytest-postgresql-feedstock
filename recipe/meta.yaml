@@ -1,5 +1,5 @@
 {% set name = "pytest-postgresql" %}
-{% set version = "6.1.0" %}
+{% set version = "6.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7127d4f875d92db99bd3a99303b4e6eff8af2937a5c45133245b4a3b5919c6f6
+  sha256: f996637367e6aecebba1349da52eea95340bdb434c90e4b79739e62c656056e2
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
   run:
     - python >=3.8
     - pytest >=6.2
-    - port-for >=0.6.0
+    - port-for >=0.7.3
     - mirakuru
     - setuptools
     - psycopg >=3.0.0
